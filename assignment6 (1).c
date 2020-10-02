@@ -1,9 +1,16 @@
 #include<stdio.h>
+#inculde<vector.h>
+
 #define MAX 50
 struct queue{
 char id[50]
 }q[50];
 
+int arr[50];
+for(int j=0;j<10;j++)
+{
+	cin>>arr[i];
+}
 int h=-1,t=-1;
 void enqueue();
 void dequeue();
